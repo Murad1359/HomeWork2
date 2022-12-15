@@ -13,6 +13,8 @@ function change_div(){
     var brRadius = document.getElementById('brRadius').value
     var border   = document.getElementById('border').value
     var boxShadow =  document.getElementById('boxShadow').value
+    var outline = document.getElementById('outline').value
+    var text = document.getElementById('text').value
 
     kvadrat.style.width = w
     kvadrat.style.height = h
@@ -26,4 +28,6 @@ function change_div(){
     kvadrat.style.borderRadius = brRadius
     kvadrat.style.border = border
     kvadrat.style.boxShadow = boxShadow
+    kvadrat.style.outline = outline
+    kvadrat.innerHTML = text
 }
