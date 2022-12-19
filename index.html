@@ -1,55 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <div class="main">
 
-        <input type="text" id="width" placeholder="enter width">
-    <br><br>
-    <input type="text" id="height" placeholder="enter height">
-    <br><br>
-    <select name="" id="bg">
-        <option value="">-Select-</option>
-        <option value="red">Red</option>
-        <option value="green">Green</option>
-        <option value="blue">Blue</option>
-    </select>
-    <br><br>
-    <input type="text" id="bgImg" placeholder="Image link">
-    <br><br>
-    <select name="" id="position">
-        <option value="">-Select-</option>
-        <option value="static">Static</option>
-        <option value="relative">Relative</option>
-        <option value="absolute">Absolute</option>
-        <option value="fixed">Fixed</option>
-        <option value="sticky">Sticky</option>
-    </select>
-    <br><br>
-    <input type="text" id="top" placeholder="top">
-    <br><br>
-    <input type="text" id="left" placeholder="left">
-    <br><br>
-    <input type="text" id="border" placeholder="px solid color">
-    <br><br>
-    <input type="text" id="brRadius" placeholder="border radius">
-    <br><br>
-    <input type="text" id="boxShadow" placeholder="boxShadow">
-    <br><br>
-    <input type="text" id="outline" placeholder="outline">
-    <br><br>
-    <input type="text" id="text" placeholder="text">
+        <nav class="side_bar p-0 navbar navbar-expand-lg navbar-dark border-bottom-0">
+
+            <div class="container-fluid position-relative h-100 flex-lg-column ps-3 px-lg-3 pt-lg-3 pb-lg-2">
+
+                <a href="index.html" class="logo mb-lg-auto mt-lg-4">
+
+                    <span class="profile_img bg-dark-2 rounded-pill mb-lg-1 d-none d-lg-inline-block">
+
+                        <img class="img-fluid rounded-pill d-block" src="img/profile.jpg" title="I' Simone" alt="#">
+
+                    </span>
+
+                    <h1 class="text-5 text-white text-center mb-0 d-lg-block">
+
+                        Simone Olivia
+
+                    </h1>
+
+                </a>
+
+                <div class="menu collapse navbar-collapse w-100 flex-column my-lg-auto">
+
+                    <ul class="navbar-nav text-lg-center w-100 my-lg-auto py-lg-3 flex-column">
+
+                        <li class="nav-item"><a href="#home">Home</a></li>
+                        <li class="nav-item"><a href="#about">About Me</a></li>
+                        <li class="nav-item"><a href="">What I Do</a></li>
+                        <li class="nav-item"><a href="">Resume</a></li>
+                        <li class="nav-item"><a href="">Portfolio</a></li>
+                        <li class="nav-item"><a href="">Testimonial</a></li>
+                        <li class="nav-item"><a href="">Contact</a></li>
+
+                    </ul>
+
+                </div>
+
+                <ul
+                    class="icons w-100 social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex justify-content-center align-items-center">
+
+                    <li class="social-icons-facebook"><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li class="social-icons-twitter"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li class="social-icons-dribbble"><a href=""><i class="fa-brands fa-dribbble"></i></a></li>
+                    <li class="social-icons-github"><a href=""><i class="fa-brands fa-github"></i></a></li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+        <div id="content">
+
+            <section id="home">
+
+                <div class="hero-wrap">
+
+                    <div class="hero-mask"></div>
+                    <div class="hero-bg">
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="text">
+
+                                        <!-- <h3>Welcome</h3>
+
+                                        <p>based in Los Angeles, California</p> -->
+
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </section>
+
+            <section id="about" class="section bg-dark-1">
+
+                ABOUT ME
+                
+                <div class="head">
+
+                    <h2>Know Me More</h2>
+
+                </div>
+                
+
+            </section>
+
+        </div>
+
     </div>
 
-    <div id="kvadrat" onclick="change_div()"></div>
-    
 </body>
+
 </html>
-<script src="js/main.js"></script>
